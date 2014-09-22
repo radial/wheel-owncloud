@@ -17,7 +17,8 @@ RUN             apt-get -q update && apt-get -qyV install \
                     php5 php5-apcu php5-cli php5-common php5-curl php5-gd php5-imagick php5-intl \
                     php5-json php5-ldap php5-mcrypt php5-oauth php5-readline \
                     php5-tidy php5-xsl sdop zend-framework zend-framework-bin libzend-framework-php &&\
-                apt-get clean
+                apt-get clean &&\
+                rm -rf /var/lib/apt/lists/*
 
 # Process startup info
 ENV             SPOKE_NAME ocApp
