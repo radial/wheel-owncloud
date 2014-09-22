@@ -18,7 +18,6 @@ RUN             apt-get -q update && apt-get -qyV install \
                     php5-json php5-ldap php5-mcrypt php5-oauth php5-readline \
                     php5-tidy php5-xsl sdop zend-framework zend-framework-bin libzend-framework-php &&\
                 apt-get clean
-RUN             env --unset=DEBIAN_FRONTEND
 
 # Process startup info
 ENV             SPOKE_NAME ocApp
