@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -e
 
-OWNCLOUD_VERSION=${OWNCLOUD_VERSION:-7.0.1}
+OWNCLOUD_VERSION=${OWNCLOUD_VERSION:-7.0.2}
 WWW_DIR=${WWW_DIR:-/data/www}
 
 restart_message() {
