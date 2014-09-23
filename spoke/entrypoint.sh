@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -e
+set -e
 
 OWNCLOUD_VERSION=${OWNCLOUD_VERSION:-7.0.2}
 WWW_DIR=${WWW_DIR:-/data/www}
