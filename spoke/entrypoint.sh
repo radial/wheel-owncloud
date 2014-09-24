@@ -1,8 +1,12 @@
 #!/bin/bash
 set -e
 
+# Tunable settings
 OWNCLOUD_VERSION=${OWNCLOUD_VERSION:-7.0.2}
 WWW_DIR=${WWW_DIR:-/data/www}
+
+# Misc settings
+ERR_LOG=/log/$HOSTNAME/ocApp_stderr.log
 
 restart_message() {
     echo "Container restart on $(date)."
