@@ -25,6 +25,7 @@ if [ ! "`ls -A $WWW_DIR`" ] ; then
     chmod -v 700 $WWW_DIR
     chown -R www-data:www-data $WWW_DIR
 
+    ln -s $WWW_DIR/owncloud-data/data/owncloud.log /log/$HOSTNAME/owncloud.log
 else
     restart_message
 fi
