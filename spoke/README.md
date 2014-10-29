@@ -19,9 +19,9 @@ socket.
 
 Tunable environment variables; modify at runtime. Italics are defaults.
 
-  - **OWNCLOUD_VERSION**: {_"7.0.2"_} Which owncloud source code version to download. (ex.
+  - **OWNCLOUD_VERSION**: [_"7.0.2"_] Which owncloud source code version to download. (ex.
     "7.0.2")
-  - **WWW_DIR**: {_"/data/www"_} Location to store source. Radial "best-practice" is in the
+  - **WWW_DIR**: [_"/data/www"_] Location to store source. Radial "best-practice" is in the
     '/data' directory.
 
 ## Radial
