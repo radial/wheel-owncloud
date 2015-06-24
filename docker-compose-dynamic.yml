@@ -10,9 +10,7 @@ hub:
         - /config
         - /data
         - /run
-    environment:
-        WHEEL_REPO_OWNCLOUD: "https://github.com/radial/wheel-owncloud.git"
 owncloud:
-    build: spoke
+  image: "radial/owncloud:latest"
     volumes_from:
         - hub
